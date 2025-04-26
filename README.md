@@ -2,15 +2,17 @@
 
 ## 📚 Table of Contents
 
-- [Project Summary](#project-summary)
-- [Usage](#usage)
-- [Modular Structure](#modular-structure)
-- [Folder Structure](#folder-structure)
-- [Breakdown of Components](#breakdown-of-components)
-- [Game Logic](#game-logic)
-- [Future Features](#future-features)
+- [🎮 Tic-Tac-Toe](#-tic-tac-toe)
+- [📚 Table of Contents](#-table-of-contents)
+- [📝 Project Summary](#-project-summary)
+- [▶️ Usage](#️-usage)
+- [🧩 Modular Structure](#-modular-structure)
+- [📁 Folder Structure](#-folder-structure)
+- [🧱 Breakdown of Components](#-breakdown-of-components)
+- [🧠 Game Logic](#-game-logic)
+- [🚀 Future Features](#-future-features)
 
-## Project Summary
+## 📝 Project Summary
 
 A classic Tic Tac Toe game implemented in Python.
 This is my **first ever Python project**, designed to be a beginner-friendly introduction to python as a language and scripting with it.
@@ -25,7 +27,7 @@ This project was a great way to practice:
 
 > 🎯 Ideal for beginners looking to solidify their understanding of Python and build something fun!
 
-## Usage
+## ▶️ Usage
 
 ### Requirements
 - Python 3.12 or higher installed on your system
@@ -45,11 +47,11 @@ python main.py
 
 You'll be greeted with a welcome message, asked to choose your symbol (X or O), and shown a position guide to help place your moves. Take turns with another player and try to win!
 
-## Modular Structure
+## 🧩 Modular Structure
 
 This project follows a modular design approach to keep the code clean, maintainable, and easy to understand. Each file is responsible for a specific aspect of the game's logic or display. 
 
-## Folder Structure
+## 📁 Folder Structure
 
 ```bash
 .
@@ -69,7 +71,7 @@ This project follows a modular design approach to keep the code clean, maintaina
 └── main.py
 ```
 
-## Breakdown of Components
+## 🧱 Breakdown of Components
 
 - **`main.py`**:
     Controls the game loop, manages player turns, and ties all modules together.
@@ -80,7 +82,7 @@ This project follows a modular design approach to keep the code clean, maintaina
     - `showPositionGuide()` gives a numbered guide to help players place their mark.
 
 - **`user_choice`**:
-    Ensures the player inputs a valid position (1–9) and that the chosen cell isn’t already occupied.
+    Ensures the player inputs a valid position (1–9) and that the chosen cell isn't already occupied.
 
 - **`place_mark.py`**:
     Handles placing a player's symbol (X or O) on the board at the selected position.
@@ -93,7 +95,8 @@ This project follows a modular design approach to keep the code clean, maintaina
 
 This structure keeps each piece of logic self-contained, which makes it easier to read, test, and update in the future. 
 
-## Game Logic
+## 🧠 Game Logic
+
 The core gameplay revolves around a loop where players take turns marking positions on a 3x3 grid. Here is how logic flow works:
 
 1. **Board Setup**
@@ -121,7 +124,7 @@ The core gameplay revolves around a loop where players take turns marking positi
 
 This cycle continues until a win or draw ends the game.
 
-## Future Features
+## 🚀 Future Features
 
 Here are a few ideas I'm considering for expanding the project in the future:
 
