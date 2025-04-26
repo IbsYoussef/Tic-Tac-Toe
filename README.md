@@ -2,8 +2,6 @@
 
 ## 📚 Table of Contents
 
-- [🎮 Tic-Tac-Toe](#-tic-tac-toe)
-- [📚 Table of Contents](#-table-of-contents)
 - [📝 Project Summary](#-project-summary)
 - [▶️ Usage](#️-usage)
 - [🧩 Modular Structure](#-modular-structure)
